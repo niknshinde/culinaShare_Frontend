@@ -11,6 +11,7 @@ import DetailedRecipe from './component/DetailedRecipe';
 import FavoritesRecipes from './component/FavoritesRecipes';
 import Footer from './component/Footer';
 import About from './component/About';
+import ChatBot from './component/chatbot/ChatBot';
 
 
 
@@ -36,6 +37,12 @@ function App() {
       <Route path="/about" element={<About/>} />
 
 
+      {/* <Footer/> */}
+
+      <Route path="/chatbot" element={<ChatBot/>} />
+
+
+
 
 
       </Routes>
@@ -44,7 +51,6 @@ function App() {
       </Router>
       </BackendState>
       </>
-      <Footer/>
     </>
   );
 }
